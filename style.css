@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: auto;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.heading h1 {
+    padding: 3px;
+    width: 100%;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: yellow;
+    background-color: green;
+}
+
+
+.sorts {
+    background-color: #e2ebe6;
+    color: black;
+    padding: 8px;
+    text-align: justify;
+
+}
+#container {
+    width: 70%;
+    height: 300px; 
+    color: rgb(133, 122, 143);
+}
+
+
+#message {
+    text-align: center;
+            color: #272424;
+            position: absolute;
+            bottom: 120px;
+            left: 20px;
+            margin: 10px;
+}
+#header {
+    background-color: #e2ebe6;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    margin-top: 9%;
+}
+#stepback {
+     
+    color: #b9afaf; 
+    cursor: pointer;
+}
+#stepforward
+{
+    color: #b9afaf; 
+    cursor: pointer;
+}
+
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#animation-speed-control {
+    margin-top: 10px;
+    text-align: center;
+}
+label[for="animation-speed-control"] {
+    display: block;
+    text-align: center;
+    margin: 1px auto;
+    color: green; 
+}
+
+
+
+#controls {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+input[type="text"] {
+    padding: 2px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 80px;
+}
+
+#algorithm-section {
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.heading h2 {
+    width: 100%;
+    padding: 2px;
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Afacad', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: yellow;
+    background-color: #2ecc71;
+}

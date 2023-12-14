@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sorting Bars</title>
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1>Comparison Sorting Algorithm</h1>
+    </div>
+
+    <div class="sorts">
+        <button onclick="randomizeBars()">Randomize Bars</button>
+        <button onclick="insertionSort()">Insertion Sort</button>
+        <button onclick="selectionSort()">Selection Sort</button>
+        <button onclick="bubbleSort()">Bubble Sort</button>
+        <button onclick="quickSort()">Quick Sort</button>
+        <button onclick="mergeSort()">Merge Sort</button>
+        <button onclick="shellSort()">Shell Sort</button>
+        <button onclick="changeSize()">Change Size</button>
+    </div>
+
+    <div id="container"></div>
+
+    <div id="message">Animation Completed</div>
+
+    <div id="header">
+        <button onclick="stepback()" id="stepback">Step Back</button>
+        <button onclick="stepback()" id="stepback">Step Back</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="stepforward()" id="stepforward">Step Forward </button>
+        <button onclick="stepforward()" id="stepforward">Step Forward</button>
+
+        <!-- Animation Speed Control-->
+        <input type="range" id="animation-speed-control" class="animation-speed" min="1" max="10" value="5">
+
+        <label for="w">W :</label>
+        <input type="text" id="w" name="">
+
+        <label for="h">h :</label>
+        <input type="text" id="h" name="">
+
+        <button onclick="changecanvasSize()">Change Canvas Size</button>
+        <button onclick="movecontrols()">Move Controls</button><br>
+
+        <label for="animation-speed-control" class="animation-speed-label">Animation Speed</label>
+    </div>
+
+    <div class="heading">
+        <h2>Algorithm Visualization</h2>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
